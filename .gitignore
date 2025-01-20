@@ -1,0 +1,45 @@
+# Diretórios e arquivos relacionados ao ambiente virtual
+.venv/
+env/
+venv/
+*.env
+
+# Arquivos de configuração sensíveis
+config.json
+secrets.json
+
+# Arquivos de cache e temporários
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.sqlite3
+pip/
+
+# Configurações específicas do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos do VS Code
+.vscode/
+
+# Logs do Playwright
+playwright-report/
+playwright-*.log
+*.trace
+
+# Arquivos de saída do projeto
+*.xlsx
+*.csv
+output/
+results/
+
+# Arquivos do pyinstaller
+build/
+dist/
+*.spec
+*.exe
+
+# Bibliotecas instaladas localmente pelo Playwright
+playwright-python/
+downloads/
